@@ -14,7 +14,8 @@ on:
     - release/*
 
 jobs:
-  build:
+  build-test:
+    name: Build and Test
 
     runs-on: ubuntu-latest
 
